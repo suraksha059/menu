@@ -1,0 +1,190 @@
+.container
+{
+    margin : 2% auto;
+    width: 80%;
+    padding: 1% ;
+}
+*{
+    margin:0 0;
+    padding:0 0;
+}
+.img-responsive{
+    width: 100% ;
+}
+.img-rounded{
+    border-radius: 10px;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #ff6b81;
+}
+a:hover{
+    color: black;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+.btn{
+    border-radius: 2px;
+    font-size: 1.2rem;
+    padding: 1%;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    columns: white;
+}
+.btn-primary: hover{
+    color : white;
+}
+h2{
+    color: #2f3542;
+    margin-bottom: 1%;
+}
+h3{
+
+    font-size: 1.5rem;
+    color: black;
+
+}
+/* css for nav bar */
+.logo{
+    width: 10%;
+    float: left;
+    border: 1px solid red;
+}
+.menu{
+    line-height: 100px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 0 1%;
+    font-weight: bold;
+}
+
+
+/* css for search bar */
+.search{
+    background-image: url(../image/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7% 0;
+    background-position: center;
+}
+.search input[type=search]{
+width: 50%;
+font-size: 1.2rem;
+border-radius: 5px;
+padding: 1%;
+}
+.categories{
+    padding: 4% 0;
+}
+.card{
+    width: 25%;
+    margin: 0 4%;
+    float: left;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    left: 45%;
+    bottom: 40px;
+
+}
+
+.food-menu{
+    padding: 4% 0;
+    background: whitesmoke;
+}
+.box{
+    width: 43%;
+    float: left;
+    margin: 1%;
+    padding: 2%;
+    background: white;
+    border-radius: 10px;
+}
+.box-img{
+    width: 20%;
+    float: left;
+}
+.box-desc{
+    width: 70%;
+    float: left;
+    margin: 2%;
+
+}
+.item-price{
+    font-size: 1.3rem;
+    padding: 1% 0;
+}
+.item-desc{
+    font-size: 1rem;
+    color: grey;
+    padding-bottom: 1%;
+}
+.social{
+    padding: 4% 0;
+    list-style-type: none;
+}
+.social  ul li{
+    display: inline;
+    padding: 0 1%;
+}
+/* responsive or for mobile devices */
+@media screen and (max-width: 728px){
+    .logo{
+        width: 80%;
+        float: none;
+        padding: 1% 0;
+    }
+    .menu{
+        width: 90%;
+        font-size: 1rem;
+        float: none;
+        text-align: center;
+        font-weight: unset;
+    }
+    .search{
+        padding: 10% 0;
+    }
+    .search input[type=search]{
+        width: 90%;
+        padding: 2% 0;
+        margin: 4% 0;
+        font-size: 1rem;
+        line-height: 10px;
+    }
+    .btn{
+        width: 90%;
+    }
+    .categories{
+        padding: 10% 0;
+    }
+    .card{
+        width: 90%;
+        padding: 0 5%;
+    }
+    .float-text{
+        left: 40%;
+    }
+    .food-menu{
+        
+    }
+}
